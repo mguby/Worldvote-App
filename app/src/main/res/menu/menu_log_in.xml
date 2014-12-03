@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_log_in"
+        android:title="Log In"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_home"
+        android:title="Home"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_profile"
+        android:title="Profile"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        />
+
+
+</menu>

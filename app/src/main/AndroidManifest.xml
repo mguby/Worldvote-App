@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.markgubatan.worldvote" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name="com.markgubatan.worldvote.MainActivity"
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.markgubatan.worldvote.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName="com.markgubatan.worldvote.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.markgubatan.worldvote.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.markgubatan.worldvote.LogInActivity"
+            android:label="@string/title_activity_log_in"
+            android:parentActivityName="com.markgubatan.worldvote.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.markgubatan.worldvote.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.markgubatan.worldvote.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName="com.markgubatan.worldvote.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.markgubatan.worldvote.MainActivity" />
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/list_item_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/default_profile_picture"
+        android:minHeight="200dp"
+        android:minWidth="200dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/list_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stupid Scrub"/>
+    <TextView
+        android:id="@+id/list_item_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: -9000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/list_item_upvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list_item_upvote"
+
+            />
+        <Button
+            android:id="@+id/list_item_downvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list_item_downvote"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

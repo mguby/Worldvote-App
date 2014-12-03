@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent = "Theme.AppCompat.Light.DarkActionBar">
+        <item name = "colorPrimary">@color/actionbar_primary</item>
+        <item name = "colorPrimaryDark">@color/statusbar</item>
+        <item name = "android:actionBarStyle">@style/ActionBar.Solid.Worldvote</item>
+    </style>
+
+    <!-- Actionbar Style -->
+    <style name = "ActionBar.Solid.Worldvote"
+        parent ="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+    </style>
+
+</resources>
